@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @font-face {
     font-family: norseBold;
     src: url(fonts/Norse-Bold.otf);
@@ -15,7 +17,7 @@ body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
 display: flex;
-
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 img, picture, video, canvas, svg {
@@ -34,12 +36,15 @@ overflow-wrap: break-word;
 #sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
     /* align-items: flex-start; */
     background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
     background-size: cover;
     height: 100vh;
     max-width: 40vw;
     flex: auto;
+    color: white;
 }
 
 header {
@@ -63,6 +68,14 @@ header img {
 
 header h1 {
     padding-top: 0.2em;
+}
+
+footer {
+    margin-bottom: 1em;
+}
+
+footer a {
+    color: white;
 }
 
 #form-section {
