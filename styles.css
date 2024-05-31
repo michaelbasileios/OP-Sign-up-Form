@@ -37,13 +37,16 @@ header {
     background-color: rgba(0, 0, 0, 0.3);
     margin-top: 25vh;
     display: flex;
-    height: ;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 header img {
     height: 20%;
     width: 20%;
     object-fit: contain;
+    margin: 30px 1px;
 }
 
 #form-section {
