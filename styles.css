@@ -9,6 +9,8 @@ margin: 0;
 body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
+display: flex;
+
 }
 
 img, picture, video, canvas, svg {
@@ -22,4 +24,30 @@ font: inherit;
 
 p, h1, h2, h3, h4, h5, h6 {
 overflow-wrap: break-word;
+}
+
+#sidebar {
+    display: inherit;
+    align-items: flex-start;
+    background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 25vh;
+    display: flex;
+    height: ;
+}
+
+header img {
+    height: 20%;
+    width: 20%;
+    object-fit: contain;
+}
+
+#form-section {
+    display: flex;
+    flex-direction:column;
+    max-width: 40vw;
 }
