@@ -30,6 +30,7 @@ overflow-wrap: break-word;
     display: inherit;
     align-items: flex-start;
     background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: cover;
     height: 100vh;
 }
 
