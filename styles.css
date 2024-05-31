@@ -37,6 +37,8 @@ overflow-wrap: break-word;
     background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
     background-size: cover;
     height: 100vh;
+    max-width: 40vw;
+    flex: auto;
 }
 
 header {
@@ -48,13 +50,12 @@ header {
     color: white;
     font-family: 'norseBold', Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
+    flex: auto;
 }
 
 header img {
     height: 20%;
     width: 20%;
-    /* object-fit: contain; */
-    /* margin: 30px 1px; */
     margin: 0.3em 0.1em;
 }
 
