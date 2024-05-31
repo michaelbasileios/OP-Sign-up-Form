@@ -66,5 +66,5 @@ header h1 {
 #form-section {
     display: flex;
     flex-direction:column;
-    max-width: 40vw;
+    max-width: 60vw;
 }
