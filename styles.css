@@ -81,13 +81,11 @@ footer a {
 #form-section {
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
     max-width: 60vw;
     background-color: #EDEDED;
-    padding-right: 2.5em;
-    padding-left: 2.5em;
+    padding: 12em 2.5em;
 }
 
-.form-section-header {
+#form-container {
 
 }
