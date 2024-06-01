@@ -38,7 +38,7 @@ overflow-wrap: break-word;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    /* align-items: flex-start; */
+    align-content: center;
     background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);
     background-size: cover;
     height: 100vh;
@@ -50,7 +50,7 @@ overflow-wrap: break-word;
 header {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 5em;
-    max-height: 3em;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
