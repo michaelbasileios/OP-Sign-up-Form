@@ -52,12 +52,12 @@ header {
     margin-top: 5em;
     max-height: 3em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: 'norseBold', Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
-    flex: auto;
 }
 
 header img {
