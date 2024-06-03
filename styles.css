@@ -102,6 +102,11 @@ footer a {
     background-color: white;
 }
 
+.input-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 label {
     display: block;
     font-weight: bold;
