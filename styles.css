@@ -107,9 +107,18 @@ footer a {
     flex-flow: row wrap;
 }
 
+.input-field-item {
+    margin-right: 4em;
+}
+
+input {
+    width: 15em;
+}
+
 label {
     display: block;
     font-weight: bold;
     font-size: 0.75rem;
     color: #4D4D4D;
+    margin-top: 2em;
 }
