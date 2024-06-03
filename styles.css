@@ -101,3 +101,10 @@ footer a {
 .input-fields {
     background-color: white;
 }
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: #4D4D4D;
+}
