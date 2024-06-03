@@ -100,6 +100,7 @@ footer a {
 
 .input-fields {
     background-color: white;
+    box-shadow: 0.2em 0.2em 0.2em #D2D2D2;
 }
 
 .input-items {
@@ -113,6 +114,18 @@ footer a {
 
 input {
     width: 15em;
+    border:0.1em solid #D2D2D2;
+    border-radius: 0.2em;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0.2em 0.2em 0.2em #D2D2D2;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 label {
@@ -121,4 +134,16 @@ label {
     font-size: 0.75rem;
     color: #4D4D4D;
     margin-top: 2em;
+    letter-spacing: 0.15em;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    height: 3em;
+    width: 13em;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0.2em 0.2em 0.2em #BABABA;
 }
