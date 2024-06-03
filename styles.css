@@ -100,7 +100,7 @@ footer a {
 
 .input-fields {
     background-color: white;
-    box-shadow: 0.2em 0.2em 0.2em #D2D2D2;
+    box-shadow: 0.2em 0.2em 0.3em #BABABA;
 }
 
 .input-items {
@@ -142,8 +142,18 @@ button {
     color: white;
     height: 3em;
     width: 13em;
+    margin-bottom: 2em;
     font-weight: bolder;
     border: none;
-    border-radius: 0.3em;
+    border-radius: 0.5em;
     box-shadow: 0.2em 0.2em 0.2em #BABABA;
+}
+
+.signup-login p {
+    font-weight: 500;
+}
+
+.signup-login p a {
+    font-weight: bolder;
+    color: #596D48;
 }
