@@ -124,8 +124,8 @@ input:focus {
     box-shadow: 0.2em 0.2em 0.2em #D2D2D2;
 }
 
-input:valid {
-    border-color: #596D48;
+input[type="password"]:invalid {
+    border-color: #C50000;
 }
 
 /* input:invalid {
