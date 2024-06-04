@@ -128,6 +128,10 @@ input:invalid {
     border-color: red;
 }
 
+input:valid {
+    border-color: #596D48;
+}
+
 label {
     display: block;
     font-weight: bold;
