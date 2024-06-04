@@ -112,7 +112,7 @@ footer a {
     margin-right: 4em;
 }
 
-input {
+input{
     width: 15em;
     border:0.1em solid #D2D2D2;
     border-radius: 0.2em;
@@ -124,13 +124,14 @@ input:focus {
     box-shadow: 0.2em 0.2em 0.2em #D2D2D2;
 }
 
-input:invalid {
-    border-color: red;
-}
-
 input:valid {
     border-color: #596D48;
 }
+
+input:invalid {
+    /* border-color: #C50000; */
+}
+
 
 label {
     display: block;
