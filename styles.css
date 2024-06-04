@@ -128,9 +128,9 @@ input:valid {
     border-color: #596D48;
 }
 
-input:invalid {
-    /* border-color: #C50000; */
-}
+/* input:invalid {
+    border-color: #C50000;
+} */
 
 
 label {
